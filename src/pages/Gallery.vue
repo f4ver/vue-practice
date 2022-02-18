@@ -1,7 +1,7 @@
 <template>
   <div id = "app" :class= "typeof weather.main != 'undefined' &&  weather.main.temp > 16 ? 
     'warm': '' ">
-    
+    <router-view></router-view>
     <main>
       <div class="search-box">
         <input 

@@ -28,11 +28,8 @@
           </div>
       </div>
   </div>
-    <!-- Vue js JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<!-- Axios js JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<!-- Vue js Instance and Axios Request -->
 <script>
   var vm = new Vue({
       el: '#app1',
@@ -42,7 +39,8 @@
           imgExplanation: '',
           imgDate: '',
           imgUrl: '',
-      },
+      }
+      ,
       
       created: function () {
           this.retrieveAPod();
